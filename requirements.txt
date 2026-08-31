@@ -1,0 +1,14 @@
+streamlit
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pandas
+numpy
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+pytest
+httpx2
+requests
