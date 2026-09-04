@@ -6,6 +6,9 @@ from fastapi.testclient import TestClient
 
 from backend.database import Base, get_db
 from backend.main import app
+from backend.models import Skill
+from backend.seed_skills import SKILL_CATALOG
+
 
 TEST_DATABASE_URL = "sqlite:///:memory:"
 
@@ -21,6 +24,11 @@ def db_session():
     """Fresh schema per test that is created and torn down every time."""
     Base.metadata.create_all(bind=engine)
     session = TestingSessionLocal()
+
+    for entry in SKILL_CATALOG:
+        session.add(Skill(**entry))
+    session.commit()
+
     try:
         yield session
     finally:

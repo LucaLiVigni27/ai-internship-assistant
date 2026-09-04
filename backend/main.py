@@ -1,9 +1,9 @@
+import time
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session, joinedload
-from sqlalchemy.exc import IntegrityError
-from backend.database import Base, engine, get_db
-from backend.models import JobPosting, Application
-from backend.job_analyzer import analyze_job_description
+from backend.database import get_db
+from backend.models import JobPosting, Application, JobPostingSkill, RequirementLevel, AnalysisRun
+from backend.skill_matcher import analyze_text, detect_sections, build_structured_result, get_primary_evidence
 from backend.schemas import (
     JobPostingCreate,
     JobPostingRead,
@@ -12,12 +12,11 @@ from backend.schemas import (
     ApplicationRead,
     ApplicationReadWithPosting,
     ApplicationUpdate,
+    AnalysisRunRead,
     JobDescriptionAnalyzeRequest,
-    JobDescriptionAnalyzeResponse,
-)
+) 
 
-# Base.metadata.create_all(bind=engine) 
-# Remove once Alembice is created
+ANALYZER_VERSION = "regex-v1.1"
 
 app = FastAPI(
     title="AI Internship Assistant API",
@@ -146,8 +145,57 @@ def delete_application(application_id: int, db: Session = Depends(get_db)):
     return {"message": "Application deleted"}
 
 # Analyzer
-@app.post("/job-descriptions/analyze", response_model=JobDescriptionAnalyzeResponse)
-def analyze_job_description_endpoint(payload: JobDescriptionAnalyzeRequest):
+@app.post("/job-postings/{job_posting_id}/analyze", response_model=AnalysisRunRead)
+def analyze_job_posting(job_posting_id: int, db: Session = Depends(get_db)):
+    job_posting = db.query(JobPosting).filter(JobPosting.id == job_posting_id).first()
+    if job_posting is None:
+        raise HTTPException(status_code=404, detail="Job posting not found")
+
+    start_time = time.perf_counter()
+    findings = analyze_text(job_posting.raw_text, db)
+    sections = detect_sections(job_posting.raw_text)
+    structured_result = build_structured_result(job_posting.raw_text, findings, sections)
+    latency_ms = int((time.perf_counter() - start_time) * 1000)
+
+    db.query(JobPostingSkill).filter(
+        JobPostingSkill.job_posting_id == job_posting_id,
+        JobPostingSkill.extractor_source == "regex",
+    ).delete()
+
+    for f in findings:
+        db.add(
+            JobPostingSkill(
+                job_posting_id=job_posting_id,
+                skill_id=f.skill_id,
+                requirement_level=RequirementLevel(f.requirement_level),
+                evidence_span=get_primary_evidence(job_posting.raw_text, f),
+                extractor_source="regex",
+            )
+        )
+
+    analysis_run = AnalysisRun(
+        job_posting_id=job_posting_id,
+        extractor_type="regex",
+        extractor_version=ANALYZER_VERSION,
+        model_name=None,
+        structured_result=structured_result,
+        latency_ms=latency_ms,
+    )
+    db.add(analysis_run)
+    db.commit()
+    db.refresh(analysis_run)
+    return analysis_run
+
+
+
+
+@app.post("/job-descriptions/analyze")
+def analyze_job_description_endpoint(
+    payload: JobDescriptionAnalyzeRequest, db: Session = Depends(get_db)
+):
     if not payload.text.strip():
         raise HTTPException(status_code=400, detail="Job description text is required")
-    return analyze_job_description(payload.text)
+
+    findings = analyze_text(payload.text, db)
+    sections = detect_sections(payload.text)
+    return build_structured_result(payload.text, findings, sections)
