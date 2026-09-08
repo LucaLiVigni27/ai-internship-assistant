@@ -1,0 +1,105 @@
+{
+  "source": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8678880002",
+  "raw_text": "2026 Fall Intern, Digital Health Algorithms\n665 Clyde Avenue, Mountain View, CA, USA\n\nLab Summary:\n\nSamsung Research America Digital Health Algorithms Team (https://www.sra.samsung.com/digital-health/) collaborates with top universities, hospitals, and healthcare-industry partners to collect large-scale data and develop novel AI/ML algorithms to transform how healthcare is delivered. We use design thinking to address some of healthcare’s toughest challenges, from improving care and producing better outcomes, to reducing costs and expanding access.\n\nFocusing on wearable, mobile, and cloud-based form factors, our multi-disciplinary team develops innovative technologies that we then turn into groundbreaking commercial products to support clinicians, patients, and consumers. We use advanced sensor technology to capture physiologic responses and make use of our AI/ML framework to build algorithms for developing digital biomarkers and digital interventions. We employ data analytics to supplement clinical care and facilitate remote patient monitoring, thereby helping patients make behavioral changes that improve their health and daily lives. Our work has been internationally recognized with 70+ peer-reviewed publications and 10 design awards.\n\nOur portfolio of digital health algorithmic solutions are important tools in helping clinicians and their patients monitor and manage serious health conditions, such as cardiovascular disease, pulmonary disease, and cancer; as wells chronic illnesses including mental health, diabetes, hypertension, depression, sleep disorders, and obesity. Our work encompasses the entire range of processes, from ideating, developing, and incubating; to designing and delivering market-ready products; to supporting and evolving currently released products.\n\nPosition Summary:\n\nWe are looking for Ph.D. candidates with solid ML/AI/GenAI technology background and digital health-related research project experiences in multi-modal physiological health algorithm development, large-scale wearable data analytics, and physiological signal processing. By leveraging smartphones, wearables, and hearables in health/wellness domain, your work will significantly benefit real-world consumers, patients, the elderly, physicians, and caregivers.\n\nSamsung’s unique advantage in the consumer electronics market and growing focus on digital health will provide you with unprecedented large data sets and healthcare analytics challenges.\n\nPosition Responsibilities:\n\nYou will work with an experienced digital health algorithm research team to develop novel and disruptive algorithms towards digital health services and solutions.\nDesign, implement, and optimize advanced AI models, including self-supervised learning, for health applications.\nWork with large-scale time-series datasets to train and fine-tune ML/DL models using AWS AI services, ensuring scalability and efficiency.\nContribute to the development of novel AI methodologies to address complex healthcare challenges.\n\nRequired Skills:\n\nCurrently pursuing PhD degree in computer science, electrical engineering, biomedical engineering or related areas\nSolid coding skills with prototyping experience in AI model development, data science, and machine learning\nExperience in physiological signal processing, large-scale time-series data analytics in digital health domain\nStrong knowledge and experience in developing AI/ML foundation models and their finetuning approaches\nProgramming using languages such as Python, R, C/C++, Java, Android\nExperience with cloud infra services like AWS, SageMaker Studio, GCP, SQL, and collaboration tools like github\nGood communication/presentation skills and teamwork/collaboration spirit\nPublication in top-tier journals and conferences\n\nThis position is open to candidates who are legally authorized to work in the United States.\n\nHourly Pay Rate Range\n\n$44 - $63 USD\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Data Analysis",
+        "evidence": "Experience in physiological signal processing, large-scale time-series data analytics in digital health domain"
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Solid coding skills with prototyping experience in AI model development, data science, and machine learning"
+      },
+      {
+        "name": "Python",
+        "evidence": "Programming using languages such as Python, R, C/C++, Java, Android"
+      },
+      {
+        "name": "R",
+        "evidence": "Programming using languages such as Python, R, C/C++, Java, Android"
+      },
+      {
+        "name": "C",
+        "evidence": "Programming using languages such as Python, R, C/C++, Java, Android"
+      },
+      {
+        "name": "C++",
+        "evidence": "Programming using languages such as Python, R, C/C++, Java, Android"
+      },
+      {
+        "name": "Java",
+        "evidence": "Programming using languages such as Python, R, C/C++, Java, Android"
+      },
+      {
+        "name": "AWS",
+        "evidence": "Experience with cloud infra services like AWS, SageMaker Studio, GCP, SQL, and collaboration tools like github"
+      },
+      {
+        "name": "GCP",
+        "evidence": "Experience with cloud infra services like AWS, SageMaker Studio, GCP, SQL, and collaboration tools like github"
+      },
+      {
+        "name": "SQL",
+        "evidence": "Experience with cloud infra services like AWS, SageMaker Studio, GCP, SQL, and collaboration tools like github"
+      }
+    ],
+    "preferred_skills": [],
+    "mentioned_skills": [
+      {
+        "name": "Algorithms",
+        "evidence": "You will work with an experienced digital health algorithm research team to develop novel and disruptive algorithms towards digital health services and solutions."
+      },
+      {
+        "name": "Deep Learning",
+        "evidence": "Work with large-scale time-series datasets to train and fine-tune ML/DL models using AWS AI services, ensuring scalability and efficiency."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "You will work with an experienced digital health algorithm research team to develop novel and disruptive algorithms towards digital health services and solutions.",
+        "evidence": "You will work with an experienced digital health algorithm research team to develop novel and disruptive algorithms towards digital health services and solutions."
+      },
+      {
+        "text": "Design, implement, and optimize advanced AI models, including self-supervised learning, for health applications.",
+        "evidence": "Design, implement, and optimize advanced AI models, including self-supervised learning, for health applications."
+      },
+      {
+        "text": "Work with large-scale time-series datasets to train and fine-tune ML/DL models using AWS AI services, ensuring scalability and efficiency.",
+        "evidence": "Work with large-scale time-series datasets to train and fine-tune ML/DL models using AWS AI services, ensuring scalability and efficiency."
+      },
+      {
+        "text": "Contribute to the development of novel AI methodologies to address complex healthcare challenges.",
+        "evidence": "Contribute to the development of novel AI methodologies to address complex healthcare challenges."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Currently pursuing a PhD in computer science, electrical engineering, biomedical engineering or related areas",
+      "evidence": "Currently pursuing PhD degree in computer science, electrical engineering, biomedical engineering or related areas"
+    },
+    "location": {
+      "value": "Mountain View, CA",
+      "evidence": "665 Clyde Avenue, Mountain View, CA, USA"
+    },
+    "work_arrangement": null,
+    "work_authorization": {
+      "value": "Must be legally authorized to work in the United States",
+      "evidence": "This position is open to candidates who are legally authorized to work in the United States."
+    },
+    "salary": {
+      "value": "$44 - $63 USD/hour",
+      "evidence": "$44 - $63 USD"
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Fall 2026)",
+      "evidence": "2026 Fall Intern, Digital Health Algorithms"
+    },
+    "potential_untracked_skills": [
+      "communication",
+      "teamwork",
+      "collaboration"
+    ]
+  }
+}

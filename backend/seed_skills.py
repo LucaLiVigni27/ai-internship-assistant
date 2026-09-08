@@ -8,10 +8,11 @@ from backend.database import SessionLocal
 from backend.models import Skill
 
 SKILL_CATALOG = [
-    # Programming & CS   (SKILL_GROUPS["Programming & CS"])
+    # Programming & CS  
     {"canonical_name": "Python", "aliases": ["Python"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},
     {"canonical_name": "C++", "aliases": ["C++", "CPP", "Cpp"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},
     {"canonical_name": "C", "aliases": ["C"], "group": "Programming & CS", "is_ambiguous": True, "requires_case_sensitive": True},
+    {"canonical_name": "C#", "aliases": ["C#", "CSharp", "C-Sharp"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},
     {"canonical_name": "Java", "aliases": ["Java"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},
     {"canonical_name": "JavaScript", "aliases": ["JavaScript", "JS", "ECMAScript"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},
     {"canonical_name": "SQL", "aliases": ["SQL"], "group": "Programming & CS", "is_ambiguous": False, "requires_case_sensitive": False},

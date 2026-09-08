@@ -1,0 +1,99 @@
+{
+  "source": "https://careers.roblox.com/jobs/8072713",
+  "raw_text": "[Summer 2027] Software Engineer Intern\nSan Mateo, CA, United States\nEarly Career\nID: 37750\n\nEvery day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators.\n\nAt Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there.\n\nA career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at scale, and helping to create safer, more civil shared experiences for everyone.\n\nAs a Software Engineer Intern at Roblox, your 12-week journey is designed around accelerated learning and tangible global impact. With the support of a dedicated mentor, you’ll apply your knowledge to production-scale reality as you take end-to-end ownership of a project tackling some of the hardest technical challenges, including distributed systems, real-time communication, 3D co-experience, data processing, rendering, and more.\n\nYou Will:\n\nJoin our supportive community of engineers, receiving dedicated mentorship as you deliver live production projects.\nInvestigate and experiment with cutting-edge technologies, such as machine learning frameworks, agentic coding tools, and large language models (LLMs), to solve complex technical challenges and improve our engineering systems.\nOwn a project from beginning to end, from coding and testing to deploying it to production, and presenting your work to peers and leaders across the company.\nPartner closely with cross-functional teams, including Design, Product, Data, QA, and DevOps, to deliver cohesive products and features.\nBuild a close community with fellow interns and full-time builders alike, while gaining a broad perspective on the company as a whole through direct access to leadership during tailored events for our interns.\nEngage in our team matching process, learning about teams across Roblox–including Infra, Engine, Search and Discovery, Foundational AI, and Economy, sharing your preferences so we can help connect your career with your curiosity and passion.\n\nYou Are:\n\nPursuing an undergraduate or graduate degree in computer science, engineering, or a related field.\nWorking towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java.\nA curious collaborator, excited to learn, open to feedback, and eager to solve the hardest technical challenges as part of our team.\n\nTo support you through the next steps and help you showcase your very best during the interview, we invite you to sign up for Speak_. There, you'll gain access to our practice assessments, comprehensive interview guides, and tailored modules designed to help you confidently present your knowledge, skills, and experiences.\n\nYou may redact age, date of birth, and dates of attendance/graduation from your resume if you prefer.\n\nFor roles that are based at our headquarters in San Mateo, CA: The starting base pay for this position is as shown below. The actual base pay is dependent upon a variety of job-related factors such as professional background, training, work experience, location, business needs and market demand. Therefore, in some circumstances, the actual hourly rate could fall outside of this expected range. This pay range is subject to change and may be modified in the future. Please note that not all benefits shown on this page are applicable to internship opportunities.\n\nHourly Pay Range\n$62—$62 USD\n\nRoles that are based in an office are onsite Tuesday, Wednesday, and Thursday, with optional presence on Monday and Friday (unless otherwise noted).\n\nFor US based roles only, please note the Company may not be able to employ candidates for this role who have United States work authorization related to certain U.S. visa categories, or support future H-1B sponsorship at this time.\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Go",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      },
+      {
+        "name": "Node.js",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      },
+      {
+        "name": "Python",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      },
+      {
+        "name": "C++",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      },
+      {
+        "name": "C#",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      },
+      {
+        "name": "Java",
+        "evidence": "Working towards proficiency or proficient in one or more programming languages, including Go, Node.js, Ruby, Python, C++, Lua, Swift, C#, and Java."
+      }
+    ],
+    "preferred_skills": [],
+    "mentioned_skills": [
+      {
+        "name": "Distributed Systems",
+        "evidence": "you take end-to-end ownership of a project tackling some of the hardest technical challenges, including distributed systems, real-time communication, 3D co-experience, data processing, rendering, and more."
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Investigate and experiment with cutting-edge technologies, such as machine learning frameworks, agentic coding tools, and large language models (LLMs), to solve complex technical challenges and improve our engineering systems."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Join our supportive community of engineers, receiving dedicated mentorship as you deliver live production projects.",
+        "evidence": "Join our supportive community of engineers, receiving dedicated mentorship as you deliver live production projects."
+      },
+      {
+        "text": "Investigate and experiment with cutting-edge technologies, such as machine learning frameworks, agentic coding tools, and large language models (LLMs), to solve complex technical challenges and improve our engineering systems.",
+        "evidence": "Investigate and experiment with cutting-edge technologies, such as machine learning frameworks, agentic coding tools, and large language models (LLMs), to solve complex technical challenges and improve our engineering systems."
+      },
+      {
+        "text": "Own a project from beginning to end, from coding and testing to deploying it to production, and presenting your work to peers and leaders across the company.",
+        "evidence": "Own a project from beginning to end, from coding and testing to deploying it to production, and presenting your work to peers and leaders across the company."
+      },
+      {
+        "text": "Partner closely with cross-functional teams, including Design, Product, Data, QA, and DevOps, to deliver cohesive products and features.",
+        "evidence": "Partner closely with cross-functional teams, including Design, Product, Data, QA, and DevOps, to deliver cohesive products and features."
+      },
+      {
+        "text": "Build a close community with fellow interns and full-time builders alike, while gaining a broad perspective on the company as a whole through direct access to leadership during tailored events for our interns.",
+        "evidence": "Build a close community with fellow interns and full-time builders alike, while gaining a broad perspective on the company as a whole through direct access to leadership during tailored events for our interns."
+      },
+      {
+        "text": "Engage in our team matching process, learning about teams across Roblox–including Infra, Engine, Search and Discovery, Foundational AI, and Economy, sharing your preferences so we can help connect your career with your curiosity and passion.",
+        "evidence": "Engage in our team matching process, learning about teams across Roblox–including Infra, Engine, Search and Discovery, Foundational AI, and Economy, sharing your preferences so we can help connect your career with your curiosity and passion."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Pursuing an undergraduate or graduate degree in computer science, engineering, or a related field",
+      "evidence": "Pursuing an undergraduate or graduate degree in computer science, engineering, or a related field."
+    },
+    "location": {
+      "value": "San Mateo, CA",
+      "evidence": "San Mateo, CA, United States"
+    },
+    "work_arrangement": {
+      "value": "onsite Tuesday–Thursday (hybrid)",
+      "evidence": "Roles that are based in an office are onsite Tuesday, Wednesday, and Thursday, with optional presence on Monday and Friday (unless otherwise noted)."
+    },
+    "work_authorization": {
+      "value": "May not be able to employ candidates on certain U.S. visa categories; no future H-1B sponsorship at this time",
+      "evidence": "For US based roles only, please note the Company may not be able to employ candidates for this role who have United States work authorization related to certain U.S. visa categories, or support future H-1B sponsorship at this time."
+    },
+    "salary": {
+      "value": "$62/hour",
+      "evidence": "$62—$62 USD"
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (12-week, Summer 2027)",
+      "evidence": "As a Software Engineer Intern at Roblox, your 12-week journey is designed around accelerated learning and tangible global impact."
+    },
+    "potential_untracked_skills": [
+      "communication",
+      "leadership"
+    ]
+  }
+}

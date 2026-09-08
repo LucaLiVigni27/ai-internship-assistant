@@ -179,7 +179,7 @@ def find_matches(text:str, alias_index: list[AliasEntry]) -> list[Match]:
     matches: list[Match] = []
     for entry in alias_index:
         flags = 0 if entry.requires_case_sensitive else re.IGNORECASE
-        pattern = re.compile(r"\b" + re.escape(entry.alias) + r"\b", flags)
+        pattern = re.compile(r"(?<![A-Za-z0-9])" + re.escape(entry.alias) + r"(?![A-Za-z0-9])", flags)
 
         for m in pattern.finditer(text):
             span = (m.start(), m.end())

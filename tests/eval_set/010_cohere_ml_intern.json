@@ -1,0 +1,81 @@
+{
+  "source": "https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b",
+  "raw_text": "Machine Learning Intern/Co-op (Winter 2027)\nLocation\n\nCanada; Europe; United Kingdom; United States\n\nEmployment Type\n\nIntern\n\nLocation Type\n\nRemote\n\nDepartment\n\nInternships\n\nWho are we?\n\nCohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.\n\nWe’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.\n\nWe obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.\n\nWe are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!\n\nWhy this role?\n\nShip state of the art models to production.\n\nDesign and implement novel research ideas.\n\nBuild elegant training/deployment pipelines.\n\nJoin us at a pivotal moment, shape what we build and wear multiple hats as an intern!\n\nOur recruitment process will begin in the upcoming weeks, and we will be carefully reviewing applications and assessing potential candidates for our internships. Should we find a suitable match with your qualifications and our requirements, we will be in touch to discuss the opportunity further and to advance your application to the next stage\n\nPlease Note: To be eligible for this position you should be a student currently enrolled in a post-secondary program, available for a full-time 3-6 month internship, co-op, or research work term.\n\nAs a Machine Learning Intern, you will:\n\nDesign, train and improve upon cutting-edge models.\n\nHelp us develop new techniques to train and serve models safer, better, and faster.\n\nTrain extremely large-scale models on massive datasets.\n\nExplore continual and active learning strategies for streaming data.\n\nLearn from experienced senior machine learning technical staff.\n\nWork closely with product teams to develop solutions.\n\nYou may be a good fit if you have:\n\nProficiency in Python and related ML frameworks such as Tensorflow, TF-Serving, JAX, and XLA/MLIR.\n\nExperience using large-scale distributed training strategies.\n\nFamiliarity with autoregressive sequence models, such as Transformers.\n\nStrong communication and problem-solving skills.\n\nA demonstrated passion for applied NLP models and products.\n\nBonus: experience writing kernels for GPUs using CUDA.\n\nBonus: experience training on TPUs.\n\nBonus: papers at top-tier venues (such as NeurIPS, ICML, ICLR, AIStats, MLSys, JMLR, AAAI, Nature, COLING, ACL, EMNLP).\n",
+  "labels": {
+    "required_skills": [],
+    "preferred_skills": [
+      {
+        "name": "Python",
+        "evidence": "Proficiency in Python and related ML frameworks such as Tensorflow, TF-Serving, JAX, and XLA/MLIR."
+      },
+      {
+        "name": "TensorFlow",
+        "evidence": "Proficiency in Python and related ML frameworks such as Tensorflow, TF-Serving, JAX, and XLA/MLIR."
+      },
+      {
+        "name": "GPU",
+        "evidence": "Bonus: experience writing kernels for GPUs using CUDA."
+      },
+      {
+        "name": "CUDA",
+        "evidence": "Bonus: experience writing kernels for GPUs using CUDA."
+      }
+    ],
+    "mentioned_skills": [
+      {
+        "name": "Machine Learning",
+        "evidence": "Learn from experienced senior machine learning technical staff."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Design, train and improve upon cutting-edge models.",
+        "evidence": "Design, train and improve upon cutting-edge models."
+      },
+      {
+        "text": "Help us develop new techniques to train and serve models safer, better, and faster.",
+        "evidence": "Help us develop new techniques to train and serve models safer, better, and faster."
+      },
+      {
+        "text": "Train extremely large-scale models on massive datasets.",
+        "evidence": "Train extremely large-scale models on massive datasets."
+      },
+      {
+        "text": "Explore continual and active learning strategies for streaming data.",
+        "evidence": "Explore continual and active learning strategies for streaming data."
+      },
+      {
+        "text": "Learn from experienced senior machine learning technical staff.",
+        "evidence": "Learn from experienced senior machine learning technical staff."
+      },
+      {
+        "text": "Work closely with product teams to develop solutions.",
+        "evidence": "Work closely with product teams to develop solutions."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Student currently enrolled in a post-secondary program",
+      "evidence": "Please Note: To be eligible for this position you should be a student currently enrolled in a post-secondary program, available for a full-time 3-6 month internship, co-op, or research work term."
+    },
+    "location": {
+      "value": "Remote (Canada, Europe, United Kingdom, United States)",
+      "evidence": "Canada; Europe; United Kingdom; United States"
+    },
+    "work_arrangement": {
+      "value": "Remote",
+      "evidence": "Location Type\n\nRemote"
+    },
+    "work_authorization": null,
+    "salary": null,
+    "deadline": null,
+    "employment_type": {
+      "value": "internship / co-op (full-time, 3-6 months, Winter 2027)",
+      "evidence": "available for a full-time 3-6 month internship, co-op, or research work term"
+    },
+    "potential_untracked_skills": [
+      "communication",
+      "problem-solving"
+    ]
+  }
+}

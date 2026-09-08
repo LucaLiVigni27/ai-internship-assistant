@@ -1,0 +1,87 @@
+{
+  "source": "https://job-boards.greenhouse.io/c3ascend/jobs/8738917002",
+  "raw_text": "Data Science - Intern (Summer 2027)\nRedwood City, CA\n\nC3 AI (NYSE: AI), is the Enterprise AI application software company. C3 AI delivers a family of fully integrated products including the C3 Agentic AI Platform, an end-to-end platform for developing, deploying, and operating enterprise AI applications, C3 AI applications, a portfolio of industry-specific SaaS enterprise AI applications that enable the digital transformation of organizations globally, and C3 Generative AI, a suite of domain-specific generative AI offerings for the enterprise. Learn more at: C3 AI\n\nC3 AI is seeking Data Scientist interns to join us during our Summer 2027 internship program.\n\nAs a member of the C3 AI Data Science team, you will work with some of the largest companies on the planet helping them build the next generation of AI-powered enterprise applications on the C3 Agentic AI Platform (c3.ai/customers/). You will work directly with data scientists, AI engineers, and subject matter experts in the definition of new analytics capabilities in order to provide our customers with the information they need to make proper decisions and enable their digital transformation. You will help find the appropriate AI/machine learning algorithms to answer those questions and implement them on the C3 Agentic AI Platform so they can run at scale.\n\nQualified candidates will have an in-depth knowledge of most common AI, machine learning, and agentic AI techniques and their application. Also, you will understand the limitations of these algorithms and how to tweak them or derive from them to achieve similar results at large-scale.\n\nResponsibilities:\n\nDrive adoption of AI and agentic AI systems into the next generation of C3 AI products\nDesign and deploy Machine Learning algorithms for industrial applications such as fraud detection and predictive maintenance\nCollaborate with data and subject matter experts from C3 AI and its customer teams to seek, understand, validate, interpret, and correctly use new data elements\n\nQualifications:\n\nPursuing MS or PhD in Computer Science, Electrical Engineering, Statistics, or equivalent field\nApplied Machine Learning, Generative AI, and Agentic AI experience (regression and classification, supervised, and unsupervised learning)\nFamiliarity with foundation models and their application to enterprise use cases\nExperience with prototyping languages such as Python and R\nStrong mathematical background (linear algebra, calculus, probability, and statistics)\nExperience with scalable ML (distributed computing, cloud-native, streaming)\nAbility to drive a project and work both independently and in a team\nSmart, motivated, can-do attitude, and seeks to make a difference\nProficient in spoken and written English\n\nPreferred Qualifications:\n\nExperience with JavaScript and Java\nExperience with time series and dynamical systems\nA portfolio of projects (GitHub, papers, etc.)\n\nC3 AI provides excellent benefits and a competitive compensation package, which include:\n\nSalary range: $8,000 - $10,000 USD per month.\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Machine Learning",
+        "evidence": "Applied Machine Learning, Generative AI, and Agentic AI experience (regression and classification, supervised, and unsupervised learning)"
+      },
+      {
+        "name": "Regression",
+        "evidence": "Applied Machine Learning, Generative AI, and Agentic AI experience (regression and classification, supervised, and unsupervised learning)"
+      },
+      {
+        "name": "Python",
+        "evidence": "Experience with prototyping languages such as Python and R"
+      },
+      {
+        "name": "R",
+        "evidence": "Experience with prototyping languages such as Python and R"
+      },
+      {
+        "name": "Linear Algebra",
+        "evidence": "Strong mathematical background (linear algebra, calculus, probability, and statistics)"
+      },
+      {
+        "name": "Probability",
+        "evidence": "Strong mathematical background (linear algebra, calculus, probability, and statistics)"
+      },
+      {
+        "name": "Statistics",
+        "evidence": "Strong mathematical background (linear algebra, calculus, probability, and statistics)"
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "JavaScript",
+        "evidence": "Experience with JavaScript and Java"
+      },
+      {
+        "name": "Java",
+        "evidence": "Experience with JavaScript and Java"
+      }
+    ],
+    "mentioned_skills": [
+      {
+        "name": "Algorithms",
+        "evidence": "Design and deploy Machine Learning algorithms for industrial applications such as fraud detection and predictive maintenance"
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Drive adoption of AI and agentic AI systems into the next generation of C3 AI products",
+        "evidence": "Drive adoption of AI and agentic AI systems into the next generation of C3 AI products"
+      },
+      {
+        "text": "Design and deploy Machine Learning algorithms for industrial applications such as fraud detection and predictive maintenance",
+        "evidence": "Design and deploy Machine Learning algorithms for industrial applications such as fraud detection and predictive maintenance"
+      },
+      {
+        "text": "Collaborate with data and subject matter experts from C3 AI and its customer teams to seek, understand, validate, interpret, and correctly use new data elements",
+        "evidence": "Collaborate with data and subject matter experts from C3 AI and its customer teams to seek, understand, validate, interpret, and correctly use new data elements"
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Pursuing MS or PhD in Computer Science, Electrical Engineering, Statistics, or equivalent field",
+      "evidence": "Pursuing MS or PhD in Computer Science, Electrical Engineering, Statistics, or equivalent field"
+    },
+    "location": {
+      "value": "Redwood City, CA",
+      "evidence": "Redwood City, CA"
+    },
+    "work_arrangement": null,
+    "work_authorization": null,
+    "salary": {
+      "value": "$8,000 - $10,000 USD per month",
+      "evidence": "Salary range: $8,000 - $10,000 USD per month."
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Summer 2027)",
+      "evidence": "C3 AI is seeking Data Scientist interns to join us during our Summer 2027 internship program."
+    },
+    "potential_untracked_skills": []
+  }
+}

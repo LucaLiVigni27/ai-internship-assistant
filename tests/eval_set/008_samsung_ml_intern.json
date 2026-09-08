@@ -1,0 +1,92 @@
+{
+  "source": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8438402002",
+  "raw_text": "2026 Fall Intern, Memory and Personalization\n665 Clyde Avenue, Mountain View, CA, USA\n\nLab Summary:\n\nAdvanced Intelligence Lab at Samsung Research America is working towards a vision of a world-class voice assistant that provides a unified AI experience across multiple devices (Galaxy Smartphones, Galaxy Watch & Smart home appliances like TVs, Family Hub, IoT devices etc.) with deep integration and building AI assisted services intelligent solutions.\n\nWe work on applied research, innovative products, services, and experiences to delight our users by promoting new technologies to make best user experience with Bixby on devices to be intuitive, faster, seamless, more powerful, and multi-dimensional across different product domains/categories. Our goal is to improve user’s lifestyles through technology advancement and experience enrichment.\n\nPosition Summary:\n\nBixby is an intelligent personal assistant which is only available as a built-in application on Samsung flagship devices and wearables. This application uses Natural Language Understanding to perform tasks on these devices using voice/ text, including but not limited to making phone calls, sending text messages, setting up meetings, opening apps, setting alarms and timers, getting directions, answering general questions, providing information about restaurants and other businesses, etc.\n\nSamsung Bixby team is seeking talented and self-driven software engineering interns to join our applied research on Long-term memory and personalization solutions. As an intern you will work closely with our team of engineers to develop and maintain software products, learn about the latest technologies and industry trends, and gain valuable experience in a fast-paced and dynamic work environment and build next generation AI services that influence the evolution of smart assistant solutions across our flagship devices.  As an intern on the Memory & Personalization team, you will work on next-generation long-term memory systems for Bixby. This includes building and evaluating retrieval pipelines (vector + graph), designing contextual reasoning mechanisms, and developing scalable personalization infrastructure that operates efficiently under device constraints.\n\nWe are looking for an Intern to join us this Fall 2026.\n\nPosition Responsibilities:\n\nDesign and prototype hybrid memory retrieval systems combining vector search and structured knowledge graphs\nDevelop long-term memory models from user interaction signals\nBuild evaluation pipelines for memory relevance, personalization accuracy, and latency\nOptimize memory systems for low-latency and on-device deployment\nCollaborate with system, platform, and product teams to integrate memory into assistant workflows\n\nRequired Skills:\n\nCurrently pursuing a PhD in Computer Science or equivalent field with knowledge around Long-term memory, LLM, ML, AI\n2+ years of ML engineering experience with building end-to-end systems in production\nStrong hands-on experience with ML systems through research projects, internships, or production environments\nExperience with retrieval systems (vector databases, ranking, search)\nFamiliarity with graph databases or knowledge graphs\nExperience with large language models and embedding-based retrieval\nStrong Python skills and familiarity with ML frameworks (PyTorch or TensorFlow)\n\nSpecial Attributes:\n\nExperience with memory systems or knowledge representation\nKnowledge of GraphQL and modern API patterns\nExperience with recommendation systems or search\nBackground in information retrieval or ranking systems\nKnowledge of model optimization and quantization\nStrong knowledge of design patterns and scalable architecture\nExperience with CI / CD platforms like Jenkins, Github actions and Circle CI\nHands on experience with Web applications/services development in a professional environment\n\nThis position is open to candidates who are legally authorized to work in the United States.\n\nOur total rewards programs are designed to motivate and engage exceptional talent. The hourly pay rate range for roles at this level is listed below, but may be higher or lower in other states due to geographic differentials in the labor market. Within the hourly pay rate range, individual rates depend on a number of factors—including the role’s function and location as well as the individual’s knowledge, skills, experience, education and training. This is part of our comprehensive compensation package with annual bonus eligibility and generous benefits to help you live life well.\n\nHourly Pay Rate Range\n\n$44 - $63 USD\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Machine Learning",
+        "evidence": "Currently pursuing a PhD in Computer Science or equivalent field with knowledge around Long-term memory, LLM, ML, AI"
+      },
+      {
+        "name": "Embeddings",
+        "evidence": "Experience with large language models and embedding-based retrieval"
+      },
+      {
+        "name": "Python",
+        "evidence": "Strong Python skills and familiarity with ML frameworks (PyTorch or TensorFlow)"
+      },
+      {
+        "name": "PyTorch",
+        "evidence": "Strong Python skills and familiarity with ML frameworks (PyTorch or TensorFlow)"
+      },
+      {
+        "name": "TensorFlow",
+        "evidence": "Strong Python skills and familiarity with ML frameworks (PyTorch or TensorFlow)"
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Optimization",
+        "evidence": "Knowledge of model optimization and quantization"
+      },
+      {
+        "name": "Jenkins",
+        "evidence": "Experience with CI / CD platforms like Jenkins, Github actions and Circle CI"
+      },
+      {
+        "name": "GitHub Actions",
+        "evidence": "Experience with CI / CD platforms like Jenkins, Github actions and Circle CI"
+      }
+    ],
+    "mentioned_skills": [],
+    "responsibilities": [
+      {
+        "text": "Design and prototype hybrid memory retrieval systems combining vector search and structured knowledge graphs",
+        "evidence": "Design and prototype hybrid memory retrieval systems combining vector search and structured knowledge graphs"
+      },
+      {
+        "text": "Develop long-term memory models from user interaction signals",
+        "evidence": "Develop long-term memory models from user interaction signals"
+      },
+      {
+        "text": "Build evaluation pipelines for memory relevance, personalization accuracy, and latency",
+        "evidence": "Build evaluation pipelines for memory relevance, personalization accuracy, and latency"
+      },
+      {
+        "text": "Optimize memory systems for low-latency and on-device deployment",
+        "evidence": "Optimize memory systems for low-latency and on-device deployment"
+      },
+      {
+        "text": "Collaborate with system, platform, and product teams to integrate memory into assistant workflows",
+        "evidence": "Collaborate with system, platform, and product teams to integrate memory into assistant workflows"
+      }
+    ],
+    "min_experience": {
+      "value": "2+ years of ML engineering experience building end-to-end systems in production",
+      "evidence": "2+ years of ML engineering experience with building end-to-end systems in production"
+    },
+    "education": {
+      "value": "Currently pursuing a PhD in Computer Science or equivalent field",
+      "evidence": "Currently pursuing a PhD in Computer Science or equivalent field with knowledge around Long-term memory, LLM, ML, AI"
+    },
+    "location": {
+      "value": "Mountain View, CA",
+      "evidence": "665 Clyde Avenue, Mountain View, CA, USA"
+    },
+    "work_arrangement": null,
+    "work_authorization": {
+      "value": "Must be legally authorized to work in the United States",
+      "evidence": "This position is open to candidates who are legally authorized to work in the United States."
+    },
+    "salary": {
+      "value": "$44 - $63 USD/hour",
+      "evidence": "$44 - $63 USD"
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Fall 2026)",
+      "evidence": "We are looking for an Intern to join us this Fall 2026."
+    },
+    "potential_untracked_skills": []
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "source": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382-software-engineering-intern-bs-summer-2027", 
+  "raw_text": "Software Engineering Intern, BS, Summer 2027\nGoogle\nMountain View, CA, USA; Austin, TX, USA; +29 more\nIntern and Apprentice\n\nApplications will be reviewed on a rolling basis and it's in the candidate's best interest to apply early. The anticipated application window is open until September 25th, 2026, but may close earlier if all available projects are full.\n\nTiming on when you can hear back will vary and can take upwards of 90+ days. If you haven't heard from us in three months about an application, we likely proceeded with other candidates for that particular role. However, our recruiters might reach out if we find a different potential match for your skills, interests, and experience.\n\nParticipation in the internship program requires that you are located in the United States for the duration of the internship program. Please note: applications to this posting are exclusively for internship opportunities in the United States. If interested in internship opportunities in other locations outside of the United States, please complete an application for those opportunities at careers.google.com\n\nThis internship is intended for students in all academic years who are pursuing a Bachelor's degree program in Computer Science or a related field.\n\nGoogle is a global company and, in order to facilitate efficient collaboration and communication globally, English proficiency is a requirement for this internship program.\n\nMinimum qualifications:\nPursuing a Bachelor's degree or post secondary or training experience with a focus on subjects in software development or other technical related fields.\nExperience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.).\nExperience with data structures or algorithms gathered from inside or outside of school or work.\n\nPreferred qualifications:\nCurrently attending a degree program in the US and available to work full time for 12 weeks outside of university term time.\nReturning to a degree program after completion of the internship.\nExperience programming in three or more of the following languages: C, C++, C#, Java, JavaScript, Go, Python or similar.\nExperience with AI/ML, infrastructure, web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development.\n\nAbout the job\nJoin us for a unique 12-14 week paid internship that offers personal and professional development, an executive speaker series, and community-building. The Software Engineering Internship program will give you an opportunity to work on complex computer science solutions, develop scalable, distributed software systems, and also collaborate on multitudes of smaller projects that have universal appeal.\n\nWe offer a range of internships in either Software Engineering or Site-Reliability Engineering across North America, including the US and Canada. Our recruitment team will determine where you fit best based on your resume.\n\nAs a Software Engineering intern, you will work on a specific project critical to Google's needs. Google is working to advance the state of the art in computing and build the next generation of intelligent systems for all Google products. To achieve this, we work on projects that utilize the latest computer science techniques developed by skilled software developers.\n\nSoftware Engineering Intern:\n\nAs a key member of a versatile team, you will work on a specific project critical to Google's needs. We need our engineers to be versatile, and enthusiastic in addressing new problems as we continue to push technology forward. You will design, test, deploy and maintain software solutions as you grow and evolve during your internship.\n\nSite Reliability Intern:\n\nOur engineers create, fix, extend and scale the code to keep it working and to harden it against all the bad actors of the internet. We drive reliability and performance on a massive scale. You will work on software development projects to keep important business-critical systems up and running, from code-level troubleshooting of traffic anomalies to maintenance of our services; from monitoring and alerts to building new automation infrastructure.\n\nIndividual pay is determined by factors including job-related skills, experience, and relevant education or training.\n\nUS: $98000 - $131000 (USD) + 0% bonus target\n\nResponsibilities\nCreate and support a team including working with peers, managers, and teams.\nDevelop scripts to automate routine tasks.\nAnalyze information and evaluate results to choose the best solution to effectively solve problems.\nApply knowledge gained in computer science courses to real world challenges.",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "C",
+        "evidence": "Experience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.)."
+      },
+      {
+        "name": "C++",
+        "evidence": "Experience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.)."
+      },
+      {
+        "name": "Java",
+        "evidence": "Experience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.)."
+      },
+      {
+        "name": "JavaScript",
+        "evidence": "Experience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.)."
+      },
+      {
+        "name": "Python",
+        "evidence": "Experience in software development and coding in two or more general purpose programming languages (e.g., C, C++, Java, JavaScript, Python, etc.)."
+      },
+      {
+        "name": "Data Structures",
+        "evidence": "Experience with data structures or algorithms gathered from inside or outside of school or work."
+      },
+      {
+        "name": "Algorithms",
+        "evidence": "Experience with data structures or algorithms gathered from inside or outside of school or work."
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Go",
+        "evidence": "Experience programming in three or more of the following languages: C, C++, C#, Java, JavaScript, Go, Python or similar."
+      },
+      {
+        "name": "Unix",
+        "evidence": "Experience with AI/ML, infrastructure, web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development."
+      },
+      {
+        "name": "Linux",
+        "evidence": "Experience with AI/ML, infrastructure, web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development."
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Experience with AI/ML, infrastructure, web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development."
+      }
+    ],
+    "mentioned_skills": [
+      {
+        "name": "Automation",
+        "evidence": "from monitoring and alerts to building new automation infrastructure."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Create and support a team including working with peers, managers, and teams.",
+        "evidence": "Create and support a team including working with peers, managers, and teams."
+      },
+      {
+        "text": "Develop scripts to automate routine tasks.",
+        "evidence": "Develop scripts to automate routine tasks."
+      },
+      {
+        "text": "Analyze information and evaluate results to choose the best solution to effectively solve problems.",
+        "evidence": "Analyze information and evaluate results to choose the best solution to effectively solve problems."
+      },
+      {
+        "text": "Apply knowledge gained in computer science courses to real world challenges.",
+        "evidence": "Apply knowledge gained in computer science courses to real world challenges."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Pursuing Bachelor's degree in Computer Science or related field",
+      "evidence": "This internship is intended for students in all academic years who are pursuing a Bachelor's degree program in Computer Science or a related field."
+    },
+    "location": {
+      "value": "Multiple US locations (Mountain View, CA and 29+ others)",
+      "evidence": "Mountain View, CA, USA; Austin, TX, USA; +29 more"
+    },
+    "work_arrangement": {
+      "value": "onsite, US-based",
+      "evidence": "Participation in the internship program requires that you are located in the United States for the duration of the internship program."
+    },
+    "work_authorization": null,
+    "salary": {
+      "value": "$98,000 - $131,000 USD (+ 0% bonus target)",
+      "evidence": "US: $98000 - $131000 (USD) + 0% bonus target"
+    },
+    "deadline": {
+      "value": "2026-09-25",
+      "evidence": "The anticipated application window is open until September 25th, 2026, but may close earlier if all available projects are full."
+    },
+    "employment_type": {
+      "value": "internship (12-14 weeks, paid)",
+      "evidence": "Join us for a unique 12-14 week paid internship that offers personal and professional development, an executive speaker series, and community-building."
+    },
+    "potential_untracked_skills": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "source": "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005",
+  "raw_text": "Software Engineer Intern - Summer 2027 (DV Commodities)\nNew York\n\nAbout Us:\nFounded more than 15 years ago and headquartered in Chicago, the DV Group of financial services firms has grown to more than 600 people operating throughout North America and in Europe. Since spinning out of a large brokerage firm in 2016, DV Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers and users. Now, DV group affiliates include two broker dealers, a cryptocurrency market making firm, and a bourgeoning investment adviser.\n\nDV Commodities is a division within DV Group that specializes in trading commodities markets, including crude oil, refined products, natural gas, power, emissions, metals, softs, and agriculture. DV Commodities' risk management, world-class technology, and talented traders have enabled it to become one of the world’s largest liquidity providers and risk allocators in the energy and commodities spaces. DV Commodities currently has over 35 desks, with traders and staff located in London, New York, Chicago, Houston, and Dubai.\n\nOverview:\nAs a Software Development Intern, you'll work in small groups within our development team and/or trading teams to assist in building low latency applications, systems and trading tools that will make a direct impact to DV. You'll deliver well-scoped, self-contained projects within our established production codebase, learning to build new functionality that integrates cleanly with mature systems. You'll use AI tools to accelerate your development while taking full ownership of the code you ship. Through your work and other development opportunities, you will grow your technical skills and understand how our technology stack empowers our firm to serve our trading teams.\n\nRequirements:\n\nCurrently pursuing a degree in Computer Science, Computer Engineering or related field and expected to graduate between Winter 2027 and Summer 2028\nProficient in one or more general purpose programming languages, including C++ and/or Python\nAbility to read and navigate an existing codebase and deliver a contained project within it\nEffective use of AI coding tools paired with the ability to critically review generated code and own its correctness\nStrong quantitative, analytical and problem-solving skills, ideally applied to numerical or performance-sensitive problems\nAbility to work onsite at our New York office 5 days a week\n\nCompensation: $50.00 per hour\n\nDV is proud to be an equal opportunity employer and committed to creating an inclusive environment for all employees.\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "C++",
+        "evidence": "Proficient in one or more general purpose programming languages, including C++ and/or Python"
+      },
+      {
+        "name": "Python",
+        "evidence": "Proficient in one or more general purpose programming languages, including C++ and/or Python"
+      }
+    ],
+    "preferred_skills": [],
+    "mentioned_skills": [],
+    "responsibilities": [],
+    "min_experience": null,
+    "education": {
+      "value": "Currently pursuing a degree in Computer Science, Computer Engineering or related field; graduating Winter 2027 - Summer 2028",
+      "evidence": "Currently pursuing a degree in Computer Science, Computer Engineering or related field and expected to graduate between Winter 2027 and Summer 2028"
+    },
+    "location": {
+      "value": "New York, NY",
+      "evidence": "New York"
+    },
+    "work_arrangement": {
+      "value": "onsite, 5 days a week",
+      "evidence": "Ability to work onsite at our New York office 5 days a week"
+    },
+    "work_authorization": null,
+    "salary": {
+      "value": "$50.00 per hour",
+      "evidence": "Compensation: $50.00 per hour"
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Summer 2027)",
+      "evidence": "Software Engineer Intern - Summer 2027 (DV Commodities)"
+    },
+    "potential_untracked_skills": [
+      "problem-solving"
+    ]
+  }
+}

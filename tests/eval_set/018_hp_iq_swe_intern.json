@@ -1,0 +1,62 @@
+{
+  "source": "https://job-boards.greenhouse.io/hpiq/jobs/6111955004",
+  "raw_text": "Software Engineer Intern, Cloud Services (Summer 2027)\nSan Francisco, CA\n\nWho We Are\n\nHP IQ is HP’s new AI innovation lab. Combining startup agility with HP’s global scale, we’re building intelligent technologies that redefine how the world works, creates, and collaborates.\n\nWe’re assembling a diverse, world-class team—engineers, designers, researchers, and product minds—focused on creating an intelligent ecosystem across HP’s portfolio. Together, we’re developing intuitive, adaptive solutions that spark creativity, boost productivity, and make collaboration seamless.\n\nWe create breakthrough solutions that make complex tasks feel effortless, teamwork more natural, and ideas more impactful—always with a human-centric mindset.\n\nBy embedding AI advancements into every HP product and service, we’re expanding what’s possible for individuals, organisations, and the future of work.\n\nJoin us as we reinvent work, so people everywhere can do their best work.\n\nAbout The Role\n\nAt HP IQ, our Cloud Services team builds the cloud foundation that supports and extends our innovative hardware products. We develop integrated cloud-based solutions that enhance functionality, improve performance, and deliver seamless user experiences across devices. By working closely with our engineering, machine learning, and infrastructure teams, we ensure every component operates together as a cohesive system. Through this collaboration, we power next-generation AI-driven devices—creating smarter, more connected, and highly reliable products for our users.\n\nWhat You Might Do\n\nCollaborate with cross-functional teams including hardware, AI, and platform engineering to develop, test, and operate integrated cloud services.\nContribute to projects involving AI assistants, conference room devices, and more.\nWork independently and collaboratively to solve complex problems and deliver high-quality software.\nCommunicate effectively across teams to ensure alignment and successful project delivery.\n\nEssential Qualifications:\n\nCurrently pursuing a Master's or PhD degree in Computer Science or related field.\nExperience or strong interest in hardware-software integration, cloud services, and AI technologies.\nAbility to work independently in a small, fast-paced team environment.\nStrong communication and collaboration skills to work cross-functionally.\n\nPreferred Qualifications\n\nExperience with automation and infrastructure\nExposure to building services at scale.\n\nFamiliarity with technologies such as Spring Boot.\n\nHourly Pay Range: $45.00–$51.00 per hour. Actual compensation will be determined based on factors such as skills, qualifications, and experience.\n\n2027 Internship Program Dates: May/June–August/September 2027. Final dates will be based on student schedules.\n",
+  "labels": {
+    "required_skills": [],
+    "preferred_skills": [
+      {
+        "name": "Automation",
+        "evidence": "Experience with automation and infrastructure"
+      }
+    ],
+    "mentioned_skills": [
+      {
+        "name": "Machine Learning",
+        "evidence": "By working closely with our engineering, machine learning, and infrastructure teams, we ensure every component operates together as a cohesive system."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Collaborate with cross-functional teams including hardware, AI, and platform engineering to develop, test, and operate integrated cloud services.",
+        "evidence": "Collaborate with cross-functional teams including hardware, AI, and platform engineering to develop, test, and operate integrated cloud services."
+      },
+      {
+        "text": "Contribute to projects involving AI assistants, conference room devices, and more.",
+        "evidence": "Contribute to projects involving AI assistants, conference room devices, and more."
+      },
+      {
+        "text": "Work independently and collaboratively to solve complex problems and deliver high-quality software.",
+        "evidence": "Work independently and collaboratively to solve complex problems and deliver high-quality software."
+      },
+      {
+        "text": "Communicate effectively across teams to ensure alignment and successful project delivery.",
+        "evidence": "Communicate effectively across teams to ensure alignment and successful project delivery."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Currently pursuing a Master's or PhD degree in Computer Science or related field",
+      "evidence": "Currently pursuing a Master's or PhD degree in Computer Science or related field."
+    },
+    "location": {
+      "value": "San Francisco, CA",
+      "evidence": "San Francisco, CA"
+    },
+    "work_arrangement": null,
+    "work_authorization": null,
+    "salary": {
+      "value": "$45.00–$51.00 per hour",
+      "evidence": "Hourly Pay Range: $45.00–$51.00 per hour."
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Summer 2027)",
+      "evidence": "2027 Internship Program Dates: May/June–August/September 2027. Final dates will be based on student schedules."
+    },
+    "potential_untracked_skills": [
+      "communication",
+      "teamwork",
+      "collaboration"
+    ]
+  }
+}

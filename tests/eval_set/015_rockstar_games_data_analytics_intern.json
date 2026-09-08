@@ -1,0 +1,77 @@
+{
+  "source": "https://job-boards.greenhouse.io/rsgur/jobs/7723274003",
+  "raw_text": "Intern: Data Analytics / Data Science (Spring 2027)\nLeeds, England, United Kingdom\n\nAt Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Leeds is on the lookout for students who have a passion for data analysis and the insights that data provide to help build an immersive game experience.\n\nThis is a paid, fixed term contract position running for 15 weeks from late January 2027 to early May 2027, with the expectation of a 37.5-hour work week. The successful candidate will work in Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\nThe Rockstar Analytics team provides insights and actionable results to a wide variety of stakeholders across the organization in support of their decision making.\nWe partner with multiple departments across the company, leveraging analytics to measure and improve on the success and health of our games.\nWe collaborate as a global team to develop cutting-edge data pipelines, data products, data models, reports, analyses, and machine learning applications.\nWe work alongside an exploding team of innovative data-driven decision makers directly impacting Rockstar’s future.\n\nRESPONSIBILITIES\n\nProvide strategic insight and predictive modeling on player behavior.\nDeliver reports and analysis projects using player, game, and platform data.\nAchieve well-scoped goals based on guidance and support from Leads and team members.\nExperiment with and explore new opportunities for machine learning applications while contributing to existing models & pipelines.\nCollaborate with fellow interns on Research and Development projects.\n\nREQUIREMENTS\n\nPlease note this internship is intended for undergraduate students, postgraduate students, or recent graduates who have completed coursework in data science, data analytics, or a related field. Required skills include:\n\nExposure to statistical methods, including distributions, predictive modeling, data validation, and hypothesis testing.\nAbility to understand a business problem and translate it into a technical problem.\nAbility to communicate results and present findings to a variety of stakeholders.\nExcellent problem-solving ability.\nExposure to Python.\nCuriosity in how to use machine learning and advanced analytical methods to solve problems.\nGreat team communication skills.\nExcellent writing skills.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\nExperience querying data from a database using SQL (or an equivalent).\nFamiliarity with cloud computing and big data technologies.\nFamiliarity with Rockstar products.\n\nADDITIONAL INFORMATION\n\nApplicant must have the right to work in the UK.\nPlease note that this is an onsite role based in Leeds, England.\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Python",
+        "evidence": "Exposure to Python."
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "SQL",
+        "evidence": "Experience querying data from a database using SQL (or an equivalent)."
+      }
+    ],
+    "mentioned_skills": [
+      {
+        "name": "Data Analysis",
+        "evidence": "Please note this internship is intended for undergraduate students, postgraduate students, or recent graduates who have completed coursework in data science, data analytics, or a related field."
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Curiosity in how to use machine learning and advanced analytical methods to solve problems."
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Provide strategic insight and predictive modeling on player behavior.",
+        "evidence": "Provide strategic insight and predictive modeling on player behavior."
+      },
+      {
+        "text": "Deliver reports and analysis projects using player, game, and platform data.",
+        "evidence": "Deliver reports and analysis projects using player, game, and platform data."
+      },
+      {
+        "text": "Achieve well-scoped goals based on guidance and support from Leads and team members.",
+        "evidence": "Achieve well-scoped goals based on guidance and support from Leads and team members."
+      },
+      {
+        "text": "Experiment with and explore new opportunities for machine learning applications while contributing to existing models & pipelines.",
+        "evidence": "Experiment with and explore new opportunities for machine learning applications while contributing to existing models & pipelines."
+      },
+      {
+        "text": "Collaborate with fellow interns on Research and Development projects.",
+        "evidence": "Collaborate with fellow interns on Research and Development projects."
+      }
+    ],
+    "min_experience": null,
+    "education": {
+      "value": "Undergraduate/postgraduate students or recent graduates who have completed coursework in data science, data analytics, or a related field",
+      "evidence": "Please note this internship is intended for undergraduate students, postgraduate students, or recent graduates who have completed coursework in data science, data analytics, or a related field."
+    },
+    "location": {
+      "value": "Leeds, England, United Kingdom",
+      "evidence": "Leeds, England, United Kingdom"
+    },
+    "work_arrangement": {
+      "value": "onsite",
+      "evidence": "Please note that this is an onsite role based in Leeds, England."
+    },
+    "work_authorization": {
+      "value": "Must have the right to work in the UK",
+      "evidence": "Applicant must have the right to work in the UK."
+    },
+    "salary": null,
+    "deadline": null,
+    "employment_type": {
+      "value": "paid fixed-term contract / internship (15 weeks, Spring 2027)",
+      "evidence": "This is a paid, fixed term contract position running for 15 weeks from late January 2027 to early May 2027, with the expectation of a 37.5-hour work week."
+    },
+    "potential_untracked_skills": [
+      "communication",
+      "problem-solving"
+    ]
+  }
+}

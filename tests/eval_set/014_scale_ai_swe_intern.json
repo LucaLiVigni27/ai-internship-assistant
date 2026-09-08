@@ -1,0 +1,90 @@
+{
+  "source": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
+  "raw_text": "Software Engineering Intern (Summer 2027)\nSan Francisco, CA\n\nAt Scale, our mission is to develop reliable AI systems for the world's most important decisions. For 10 years, Scale has provided the high-quality data and full-stack technologies that power the world's leading models, and has helped enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force.\n\nScale's internship is not a side project. Interns own real, shipped work on the same roadmaps as full-time engineers, with mentorship from world-class talent and a culture that values ownership, speed, and truth-seeking. Many of our interns return as full-time Scaliens.\n\nExample Projects\nBuild reinforcement learning and post-training data pipelines that power frontier model development\nDevelop evaluation infrastructure that measures model reliability for enterprise and public sector customers\nShip agentic AI applications and the tooling that makes them observable, testable, and safe to deploy\nShip tools that accelerate the growth of new qualified contributors on Scale's platform\nBuild fraud-detection systems that remove bad actors and keep Scale's contributor base safe and trusted\nUse models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale\nDevise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy\nCreate optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks\nDevelop new AI infrastructure products to visualize, query, and explore Scale data\nRequirements\nA graduation date in Fall 2027 or Spring 2028 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)\nAvailable for a Summer 2027 internship (May/June start dates) in San Francisco\nProduct engineering experience such as building web apps full-stack, integrating with relevant APIs and services, talking to customers, figuring out 'what' to build and then iterating\nPrevious Computer Science/Software Engineering internship experience\nTrack record of shipping high-quality products and features\nExperience building systems that process large volumes of data\nExperience with Python, Typescript, React, and/or MongoDB\nNice to Have\nHands-on experience with LLMs, evaluations, or agentic systems — whether from coursework, research, or personal projects\nOpen source contributions or a portfolio of shipped side projects\n",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Python",
+        "evidence": "Experience with Python, Typescript, React, and/or MongoDB"
+      },
+      {
+        "name": "React",
+        "evidence": "Experience with Python, Typescript, React, and/or MongoDB"
+      }
+    ],
+    "preferred_skills": [],
+    "mentioned_skills": [
+      {
+        "name": "Algorithms",
+        "evidence": "Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy"
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Create optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks"
+      },
+      {
+        "name": "Statistics",
+        "evidence": "A graduation date in Fall 2027 or Spring 2028 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)"
+      }
+    ],
+    "responsibilities": [
+      {
+        "text": "Build reinforcement learning and post-training data pipelines that power frontier model development",
+        "evidence": "Build reinforcement learning and post-training data pipelines that power frontier model development"
+      },
+      {
+        "text": "Develop evaluation infrastructure that measures model reliability for enterprise and public sector customers",
+        "evidence": "Develop evaluation infrastructure that measures model reliability for enterprise and public sector customers"
+      },
+      {
+        "text": "Ship agentic AI applications and the tooling that makes them observable, testable, and safe to deploy",
+        "evidence": "Ship agentic AI applications and the tooling that makes them observable, testable, and safe to deploy"
+      },
+      {
+        "text": "Ship tools that accelerate the growth of new qualified contributors on Scale's platform",
+        "evidence": "Ship tools that accelerate the growth of new qualified contributors on Scale's platform"
+      },
+      {
+        "text": "Build fraud-detection systems that remove bad actors and keep Scale's contributor base safe and trusted",
+        "evidence": "Build fraud-detection systems that remove bad actors and keep Scale's contributor base safe and trusted"
+      },
+      {
+        "text": "Use models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale",
+        "evidence": "Use models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale"
+      },
+      {
+        "text": "Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy",
+        "evidence": "Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy"
+      },
+      {
+        "text": "Create optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks",
+        "evidence": "Create optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks"
+      },
+      {
+        "text": "Develop new AI infrastructure products to visualize, query, and explore Scale data",
+        "evidence": "Develop new AI infrastructure products to visualize, query, and explore Scale data"
+      }
+    ],
+    "min_experience": {
+      "value": "Previous Computer Science/Software Engineering internship experience",
+      "evidence": "Previous Computer Science/Software Engineering internship experience"
+    },
+    "education": {
+      "value": "Bachelor's degree (or equivalent) in CS, EECS, Computer Engineering, or Statistics; graduation Fall 2027 or Spring 2028",
+      "evidence": "A graduation date in Fall 2027 or Spring 2028 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)"
+    },
+    "location": {
+      "value": "San Francisco, CA",
+      "evidence": "San Francisco, CA"
+    },
+    "work_arrangement": null,
+    "work_authorization": null,
+    "salary": null,
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (Summer 2027)",
+      "evidence": "Available for a Summer 2027 internship (May/June start dates) in San Francisco"
+    },
+    "potential_untracked_skills": []
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "source": "https://jobs.nvidia.com/careers?start=60&pid=893397026205&sort_by=timestamp&filter_job_type=intern+%28fixed+term%29%2Cnew+college+graduate&filter_hiring_title=intern",
+  "raw_text": "Job Description\n\nCompany\nJob Requisition ID\nJR2023495\nJob Category\nUniv Employment\nBy submitting your resume, you acknowledge that your 2027 Software Engineering  internship application will be processed in accordance with NVIDIA's Applicant Privacy Policy and you agree to our Terms of Service. We'll review resumes on an ongoing basis, and a recruiter may reach out if your experience fits one of our many internship opportunities.\n\n\nNVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society — from gaming to robotics, self-driving cars to life-saving healthcare, climate change to virtual worlds where we can all connect and create. Our internships offer an excellent opportunity to expand your career and get hands on experience with one of our industry leading Software teams. We're seeking strategic, ambitious, hard-working, and creative individuals who are passionate about helping us tackle challenges no one else can solve. \n\nThroughout the 12-week full-time internship, students will work on projects that have a measurable impact on our business. We're looking for students pursuing a B.S., M.S., or Ph.D. degree within a relevant or related field. \n\nPotential Internships in this field include:  \n\nDevelopment Tools \n\nDebugging complex system-level issues using Jenkins  \nCourse or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization \n\nCloud \n\nSupporting overall architecture and design of our cloud storage infrastructure  \nImplementing and troubleshooting storage and data platform tools, automating storage infrastructure end-to-end \nCourse or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging \n\nTools Infrastructure \n\nBuilding industry leading technology by proving workflows and infrastructure, alongside a team of experts in production software development and chip design methodologies \nEnabling success for content running on the chip from application tracing and analysis to modeling, diagnostics, performance tuning, and debugging  \nCourse or internship experience related to the following areas and technologies could be required: Unix/Shell Scripting, Linux, Java, JavaScript (including Node, React, Vue), C++, CUDA, OOP, Go, Python, Git, GitLab, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible) \n\nMachine Learning Operations \n\nDeep Learning, GPU Computing, Accelerated Computing \nValidation Frameworks for Deep Learning, Deep Learning Frameworks and Libraries (NumPy, SciPy, cuBLAS, cuDNN) \nData Preprocessing, Training Acceleration (CUDA, cuDNN, NCCL), Convolution Operations (cuDNN), Real-Time Inference (TensorRT)   \nBuilding Infrastructure for Back-End Analytics  \n\nWhat we need to see:  \n\nMust be actively enrolled in a university pursuing a B.S., M.S., or Ph.D. degree in Electrical Engineering, Computer Engineering, or a related field, for the full duration of the internship; anticipated graduation date (month and year) must be clearly indicated on a resume or CV to be considered.       \nDepending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)  \nClick here to learn more about NVIDIA, our early talent programs, benefits offered to students and other helpful student resources related to our latest technologies and endeavors. \n\nOur internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.\nYou will also be eligible for Intern benefits. ​\n\nApplications are accepted on an ongoing basis.\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Java",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "JavaScript",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Node.js",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "React",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Vue",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "SQL",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "C",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "C++",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "CUDA",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Go",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Python",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Git",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Perforce",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Kubernetes",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Microservices",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Schedulers",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "LSF",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "SLURM",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Containers",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Docker",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Automation",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Ansible",
+        "evidence": "Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: Java, JavaScript, (including Node, React, Vue), SQL, C, C++, CUDA, OOP, Go, Python, Git, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      }
+    ],
+    "preferred_skills": [],
+    "mentioned_skills": [
+      {
+        "name": "Debugging",
+        "evidence": "Debugging complex system-level issues using Jenkins"
+      },
+      {
+        "name": "Jenkins",
+        "evidence": "Debugging complex system-level issues using Jenkins"
+      },
+      {
+        "name": "Relational Databases",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Linear Algebra",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Numerical Methods",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Operating Systems",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Scheduling",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Process Control",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Hardware Virtualization",
+        "evidence": "Course or internship experience related to the following areas could be required: Relational Databases, Linear Algebra & Numerical Methods, Operating Systems (memory/resource management), Scheduling and Process Control, Hardware Virtualization"
+      },
+      {
+        "name": "Distributed Systems",
+        "evidence": "Course or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging"
+      },
+      {
+        "name": "Data Structures",
+        "evidence": "Course or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging"
+      },
+      {
+        "name": "Algorithms",
+        "evidence": "Course or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging"
+      },
+      {
+        "name": "Virtualization",
+        "evidence": "Course or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging"
+      },
+      {
+        "name": "Automation/Scripting",
+        "evidence": "Course or internship experience related to the following areas could be required: Distributed Systems, Data Structures & Algorithms, Virtualization, Automation/Scripting, Container & Cluster Management, Debugging"
+      },
+      {
+        "name": "Performance Tuning",
+        "evidence": "Enabling success for content running on the chip from application tracing and analysis to modeling, diagnostics, performance tuning, and debugging"
+      },
+      {
+        "name": "Unix",
+        "evidence": "Course or internship experience related to the following areas and technologies could be required: Unix/Shell Scripting, Linux, Java, JavaScript (including Node, React, Vue), C++, CUDA, OOP, Go, Python, Git, GitLab, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Shell Scripting",
+        "evidence": "Course or internship experience related to the following areas and technologies could be required: Unix/Shell Scripting, Linux, Java, JavaScript (including Node, React, Vue), C++, CUDA, OOP, Go, Python, Git, GitLab, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Linux",
+        "evidence": "Course or internship experience related to the following areas and technologies could be required: Unix/Shell Scripting, Linux, Java, JavaScript (including Node, React, Vue), C++, CUDA, OOP, Go, Python, Git, GitLab, Perforce, Kubernetes and Microservices, Schedulers (LSF, SLURM), Containers (Docker), Configuration Automation (Ansible)"
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Machine Learning Operations"
+      },
+      {
+        "name": "Deep Learning",
+        "evidence": "Deep Learning, GPU Computing, Accelerated Computing"
+      },
+      {
+        "name": "GPU Computing",
+        "evidence": "Deep Learning, GPU Computing, Accelerated Computing"
+      },
+      {
+        "name": "Accelerated Computing",
+        "evidence": "Deep Learning, GPU Computing, Accelerated Computing"
+      },
+      {
+        "name": "NumPy",
+        "evidence": "Validation Frameworks for Deep Learning, Deep Learning Frameworks and Libraries (NumPy, SciPy, cuBLAS, cuDNN)"
+      },
+      {
+        "name": "SciPy",
+        "evidence": "Validation Frameworks for Deep Learning, Deep Learning Frameworks and Libraries (NumPy, SciPy, cuBLAS, cuDNN)"
+      },
+      {
+        "name": "cuBLAS",
+        "evidence": "Validation Frameworks for Deep Learning, Deep Learning Frameworks and Libraries (NumPy, SciPy, cuBLAS, cuDNN)"
+      },
+      {
+        "name": "cuDNN",
+        "evidence": "Validation Frameworks for Deep Learning, Deep Learning Frameworks and Libraries (NumPy, SciPy, cuBLAS, cuDNN)"
+      },
+      {
+        "name": "Data Preprocessing",
+        "evidence": "Data Preprocessing, Training Acceleration (CUDA, cuDNN, NCCL), Convolution Operations (cuDNN), Real-Time Inference (TensorRT)"
+      },
+      {
+        "name": "NCCL",
+        "evidence": "Data Preprocessing, Training Acceleration (CUDA, cuDNN, NCCL), Convolution Operations (cuDNN), Real-Time Inference (TensorRT)"
+      },
+      {
+        "name": "Real-Time Inference",
+        "evidence": "Data Preprocessing, Training Acceleration (CUDA, cuDNN, NCCL), Convolution Operations (cuDNN), Real-Time Inference (TensorRT)"
+      },
+      {
+        "name": "TensorRT",
+        "evidence": "Data Preprocessing, Training Acceleration (CUDA, cuDNN, NCCL), Convolution Operations (cuDNN), Real-Time Inference (TensorRT)"
+      }
+    ],
+    "responsibilities": [],
+    "min_experience": null,
+    "education": {
+      "value": "Actively enrolled pursuing B.S., M.S., or Ph.D. in Electrical Engineering, Computer Engineering, or related field",
+      "evidence": "Must be actively enrolled in a university pursuing a B.S., M.S., or Ph.D. degree in Electrical Engineering, Computer Engineering, or a related field, for the full duration of the internship"
+    },
+    "location": null,
+    "work_arrangement": null,
+    "work_authorization": null,
+    "salary": {
+      "value": "$20-71 USD/hour",
+      "evidence": "The hourly rate for our interns is 20 USD - 71 USD."
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship (12-week, full-time)",
+      "evidence": "Throughout the 12-week full-time internship, students will work on projects that have a measurable impact on our business."
+    },
+    "potential_untracked_skills": []
+  }
+}

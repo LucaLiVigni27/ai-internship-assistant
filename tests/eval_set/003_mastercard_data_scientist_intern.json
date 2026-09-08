@@ -1,0 +1,64 @@
+{
+  "source": "https://careers.mastercard.com/us/en/job/R-284869/Data-Scientist-Intern-Summer-2027-St-Louis-MO-US",
+  "raw_text": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US\n\nWhy join Mastercard's internship program?\nMastercard's internship program offers more than hands-on work.\n\nWhat we're looking for:\n- Currently enrolled in a Bachelors degree in Data Science or a related field, with an anticipated graduation date between December 2027 and June 2028\n- Experience with or knowledge of operational data platforms and observability tools, such as AIOps, Splunk, telemetry systems, DevOps tools, and Dynatrace\n- Experience applying data analytics techniques, including anomaly detection, forecasting, and data engineering\n- Proficiency in data visualization and dashboard development using tools such as Power BI, R, Shiny, or Splunk\n- Ability to analyze complex datasets and translate insights into actionable business recommendations\n- Hands-on experience with machine learning projects, including model development, deployment, or operationalization is a plus\n- Familiarity with leveraging telemetry and operational data to identify trends, optimize performance, and support predictive analytics initiatives is a plus\n- This role is not eligible for Mastercard's work authorization sponsorship. As such, candidates must be eligible to work in the United States, now as well as in the future, without employer sponsorship. For example, students or recent graduates in the United States on an F1 visa (including those with CPT or OPT authorization) are not eligible for this role.\n\nCompensation: $27-34/hr",
+  "labels": {
+    "required_skills": [
+      {
+        "name": "Data Analysis",
+        "evidence": "Experience applying data analytics techniques, including anomaly detection, forecasting, and data engineering"
+      },
+      {
+        "name": "Forecasting",
+        "evidence": "Experience applying data analytics techniques, including anomaly detection, forecasting, and data engineering"
+      },
+      {
+        "name": "Data Visualization",
+        "evidence": "Proficiency in data visualization and dashboard development using tools such as Power BI, R, Shiny, or Splunk"
+      },
+      {
+        "name": "Dashboarding",
+        "evidence": "Proficiency in data visualization and dashboard development using tools such as Power BI, R, Shiny, or Splunk"
+      },
+      {
+        "name": "Power BI",
+        "evidence": "Proficiency in data visualization and dashboard development using tools such as Power BI, R, Shiny, or Splunk"
+      },
+      {
+        "name": "R",
+        "evidence": "Proficiency in data visualization and dashboard development using tools such as Power BI, R, Shiny, or Splunk"
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Machine Learning",
+        "evidence": "Hands-on experience with machine learning projects, including model development, deployment, or operationalization is a plus"
+      }
+    ],
+    "mentioned_skills": [],
+    "responsibilities": [],
+    "min_experience": null,
+    "education": {
+      "value": "Bachelor's degree in Data Science or related field, anticipated graduation Dec 2027 - Jun 2028",
+      "evidence": "Currently enrolled in a Bachelors degree in Data Science or a related field, with an anticipated graduation date between December 2027 and June 2028"
+    },
+    "location": {
+      "value": "St. Louis, MO, US",
+      "evidence": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US"
+    },
+    "work_arrangement": null,
+    "work_authorization": {
+      "value": "Not eligible for sponsorship; must be authorized to work in the US now and in the future (F1 CPT/OPT not eligible)",
+      "evidence": "This role is not eligible for Mastercard's work authorization sponsorship. As such, candidates must be eligible to work in the United States, now as well as in the future, without employer sponsorship."
+    },
+    "salary": {
+      "value": "$27-34/hr",
+      "evidence": "Compensation: $27-34/hr"
+    },
+    "deadline": null,
+    "employment_type": {
+      "value": "internship",
+      "evidence": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US"
+    },
+    "potential_untracked_skills": []
+  }
+}
