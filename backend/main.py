@@ -1,8 +1,11 @@
 import time
-from fastapi import FastAPI, Depends, HTTPException
+import tempfile
+import os
+from pathlib import Path
+from fastapi import FastAPI, Depends, HTTPException, UploadFile, File, Form
 from sqlalchemy.orm import Session, joinedload
 from backend.database import get_db
-from backend.models import JobPosting, Application, JobPostingSkill, RequirementLevel, AnalysisRun
+from backend.models import JobPosting, Application, JobPostingSkill, RequirementLevel, AnalysisRun, Document, DocumentType
 from backend.skill_matcher import analyze_text, detect_sections, build_structured_result, get_primary_evidence
 from backend.schemas import (
     JobPostingCreate,
@@ -14,7 +17,9 @@ from backend.schemas import (
     ApplicationUpdate,
     AnalysisRunRead,
     JobDescriptionAnalyzeRequest,
+    DocumentRead,
 ) 
+from backend.document_extraction import extract_text_from_file
 
 ANALYZER_VERSION = "regex-v1.1"
 
@@ -186,9 +191,6 @@ def analyze_job_posting(job_posting_id: int, db: Session = Depends(get_db)):
     db.refresh(analysis_run)
     return analysis_run
 
-
-
-
 @app.post("/job-descriptions/analyze")
 def analyze_job_description_endpoint(
     payload: JobDescriptionAnalyzeRequest, db: Session = Depends(get_db)
@@ -199,3 +201,71 @@ def analyze_job_description_endpoint(
     findings = analyze_text(payload.text, db)
     sections = detect_sections(payload.text)
     return build_structured_result(payload.text, findings, sections)
+
+# Document Upload
+@app.post("/documents/upload", response_model=DocumentRead)
+async def upload_document(
+    file: UploadFile = File(...),
+    document_type: DocumentType = Form(...),
+    title: str = Form(...),
+    db: Session = Depends(get_db),
+):
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="Uploaded file must have a filename")
+
+    with tempfile.NamedTemporaryFile(delete=False, suffix=Path(file.filename).suffix) as tmp:
+        contents = await file.read()
+        tmp.write(contents)
+        tmp_path = tmp.name
+
+    try:
+        raw_text = extract_text_from_file(tmp_path, file.filename)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    finally:
+        os.unlink(tmp.name)
+
+    if not raw_text.strip():
+        raise HTTPException(status_code=422, detail="No extractable text found in file")
+
+    content_hash = Document.compute_content_hash(raw_text)
+    existing = db.query(Document).filter(Document.content_hash == content_hash).first()
+    if existing is not None:
+        return existing
+    
+    document = Document(
+        document_type=document_type,
+        title=title,
+        raw_text=raw_text,
+        source_filename=file.filename,
+        content_hash=content_hash,
+    )
+    db.add(document)
+    db.commit()
+    db.refresh(document)
+    return document
+
+@app.get("/documents", response_model=list[DocumentRead])
+def list_documents (document_type: DocumentType | None = None, db: Session = Depends(get_db)):
+    query = db.query(Document)
+    if document_type is not None:
+        query = query.filter(Document.document_type == document_type)
+    return query.order_by(Document.created_at.desc()).all()
+
+@app.get("/documents/{document_id}", response_model=DocumentRead)
+def get_document(document_id: int, db: Session = Depends(get_db)):
+    document = db.query(Document).filter(Document.id == document_id).first()
+    if document is None:
+        raise HTTPException(status_code=404, detail="Document not found")
+    return document
+
+@app.delete("/documents/{document_id}")
+def delete_document(document_id: int, db: Session = Depends(get_db)):
+    # NOTE: Currently, this only deletes the SQL row. Once documents are chunked and embedded into Chroma, need to update this to also remove associated chunks/embeddings
+    document = db.query(Document).filter(Document.id == document_id).first()
+    if document is None:
+        raise HTTPException(status_code=404, detail="Document not found")
+    db.delete(document)
+    db.commit()
+    return {"message": "Document deleted"}
+

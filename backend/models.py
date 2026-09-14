@@ -97,3 +97,21 @@ class AnalysisRun(Base):
 
     job_posting: Mapped["JobPosting"] = relationship("JobPosting", back_populates="analysis_runs")
 
+class DocumentType(str, enum.Enum):
+    RESUME = "resume"
+    PROJECT = "project"
+
+class Document(Base):
+    __tablename__ = "documents"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    document_type: Mapped[DocumentType] = mapped_column(SAEnum(DocumentType), nullable=False)
+    title: Mapped[str] = mapped_column(String(180), nullable=False)
+    raw_text: Mapped[str] = mapped_column(Text, nullable=False)
+    source_filename: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    content_hash: Mapped[str] = mapped_column(String(64), nullable=False, unique=True, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=True)
+
+    @staticmethod
+    def compute_content_hash(raw_text: str) -> str:
+        return hashlib.sha256(raw_text.strip().encode("utf-8")).hexdigest()

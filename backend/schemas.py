@@ -2,7 +2,7 @@ import re
 from datetime import datetime, date
 from typing import Optional
 from pydantic import BaseModel, ConfigDict, field_validator
-from backend.models import ApplicationStatus, RequirementLevel
+from backend.models import ApplicationStatus, RequirementLevel, DocumentType
 
 # shared validators
 def _reject_blank(value: str, field_name: str) -> str:
@@ -138,3 +138,12 @@ class JobDescriptionAnalyzeResponse(BaseModel):
     top_groups: list[TopGroup]
     suggested_focus: list[str]
     potential_untracked_skills: list[str]
+
+class DocumentRead(BaseModel):
+    id: int
+    document_type: DocumentType
+    title: str
+    source_filename: Optional[str]
+    content_hash: str
+    created_at: datetime
+    model_config = ConfigDict(from_attributes=True)
