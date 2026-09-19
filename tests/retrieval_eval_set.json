@@ -1,0 +1,144 @@
+[
+  {
+    "id": "q01",
+    "query": "Docker",
+    "category": "skill_specific",
+    "relevant_chunk_ids": [
+      "job_posting:2:6:b116f5f71593",
+      "job_posting:2:8:356db1e6366d"
+    ],
+    "note": "Only NVIDIA's two tech-stack chunks literally say 'Containers (Docker)'. Strong literal overlap, so both methods are expected to do well here."
+  },
+  {
+    "id": "q02",
+    "query": "Kubernetes",
+    "category": "skill_specific",
+    "relevant_chunk_ids": [
+      "job_posting:2:6:b116f5f71593",
+      "job_posting:2:8:356db1e6366d"
+    ],
+    "note": "Same two NVIDIA chunks list 'Kubernetes and Microservices'. Another literal-overlap control case."
+  },
+  {
+    "id": "q03",
+    "query": "SQL database experience",
+    "category": "skill_specific",
+    "relevant_chunk_ids": [
+      "document:1:5:8a8fe58584cb",
+      "job_posting:2:8:356db1e6366d",
+      "job_posting:7:8:52050e8bca67",
+      "job_posting:9:9:602accbbdfa6"
+    ],
+    "note": "'SQL' appears literally in the resume's skills line and in three different postings (NVIDIA, The Nuclear Company, McKesson) - a realistic 'which of my documents mention SQL' query, spanning 4 different chunks/sources."
+  },
+  {
+    "id": "q04",
+    "query": "data visualization tools like Tableau and Power BI",
+    "category": "skill_specific",
+    "relevant_chunk_ids": [
+      "document:1:5:8a8fe58584cb",
+      "job_posting:9:9:602accbbdfa6"
+    ],
+    "note": "Named-tool skill match: the resume's skills line has Tableau, and McKesson's posting names both Tableau and Power BI as a plus."
+  },
+  {
+    "id": "q05",
+    "query": "GPU computing and deep learning frameworks",
+    "category": "skill_specific",
+    "relevant_chunk_ids": [
+      "job_posting:2:7:eb715f437d52"
+    ],
+    "note": "Control query: the target chunk says 'Deep Learning, GPU Computing... Deep Learning Frameworks' almost verbatim, so dense literal overlap. Useful contrast against the synonym-heavy queries below where the methods are expected to diverge."
+  },
+  {
+    "id": "q06",
+    "query": "machine learning experience",
+    "category": "resume_matching",
+    "relevant_chunk_ids": [
+      "document:1:0:2c595ed83473",
+      "job_posting:2:7:eb715f437d52",
+      "job_posting:6:7:b5a1b32546f7",
+      "job_posting:8:5:273858367906"
+    ],
+    "note": "Classic resume-to-posting use case: should surface the candidate's own 'Leverage machine learning (ML)...' bullet alongside the ML-heavy sections of NVIDIA, Samsung, and Roblox postings."
+  },
+  {
+    "id": "q07",
+    "query": "statistics and probability background",
+    "category": "resume_matching",
+    "relevant_chunk_ids": [
+      "document:1:0:2c595ed83473",
+      "document:1:5:8a8fe58584cb",
+      "job_posting:7:8:52050e8bca67"
+    ],
+    "note": "Resume has two chunks touching stats (coursework list, and 'Hypothesis Testing, Confidence Intervals, Bootstrap Resampling, Probability Distributions' in skills); The Nuclear Company posting asks for 'statistics and probability' almost verbatim."
+  },
+  {
+    "id": "q08",
+    "query": "building RESTful APIs for a web application",
+    "category": "resume_matching",
+    "relevant_chunk_ids": [
+      "document:1:4:0f84f6d7c5f8"
+    ],
+    "note": "Single, narrowly-relevant resume chunk ('Designed RESTful APIs for managing tasks...') - a precision test as much as a recall test."
+  },
+  {
+    "id": "q09",
+    "query": "tutoring students in math and science",
+    "category": "resume_matching",
+    "relevant_chunk_ids": [
+      "document:1:1:6b1ecb96a718"
+    ],
+    "note": "Resume says 'Tutored high school students in STEM subjects' / 'calculus, linear algebra, and discrete mathematics' - the query paraphrases 'STEM'->'science' and 'Tutored'->'tutoring', a mild synonym gap inside an otherwise resume-matching query."
+  },
+  {
+    "id": "q10",
+    "query": "distributed systems and scalable backend architecture",
+    "category": "synonym_paraphrase",
+    "relevant_chunk_ids": [
+      "job_posting:2:5:f46f90a7d345",
+      "job_posting:8:4:b6a0bcf78826",
+      "job_posting:6:8:230df4b1e2ce"
+    ],
+    "note": "NVIDIA and Roblox chunks literally say 'Distributed Systems' / 'distributed systems' - lexical search should find those. Samsung's chunk only says 'design patterns and scalable architecture', with no 'distributed' anywhere - it can only be found via the semantic link between the two phrases, which is exactly the disagreement case the task asked for."
+  },
+  {
+    "id": "q11",
+    "query": "container orchestration and cluster management tools",
+    "category": "synonym_paraphrase",
+    "relevant_chunk_ids": [
+      "job_posting:2:5:f46f90a7d345",
+      "job_posting:2:6:b116f5f71593",
+      "job_posting:2:8:356db1e6366d"
+    ],
+    "note": "NVIDIA's chunks name 'Kubernetes'/'Containers (Docker)' specifically, while a separate chunk only says 'Container & Cluster Management' generically - tests whether search connects the generic phrase in the query to the specific tool names, and vice versa."
+  },
+  {
+    "id": "q12",
+    "query": "helping customers at a fast food restaurant",
+    "category": "synonym_paraphrase",
+    "relevant_chunk_ids": [
+      "document:1:2:046a38723492"
+    ],
+    "note": "'fast food restaurant' paraphrases the resume's 'In-N-Out Burger Store Associate'; 'customer' has partial literal overlap ('customer satisfaction') but 'fast food restaurant' does not appear anywhere in the chunk."
+  },
+  {
+    "id": "q13",
+    "query": "point of sale register operations",
+    "category": "synonym_paraphrase",
+    "relevant_chunk_ids": [
+      "document:1:2:046a38723492"
+    ],
+    "note": "The resume abbreviates this as 'POS registers' - under FTS5's default (non-stemming) tokenizer, 'point', 'sale', 'operations', and singular 'register' are all different tokens from what's indexed, so lexical search has essentially zero exact-token overlap here. A near-pure semantic-only test."
+  },
+  {
+    "id": "q14",
+    "query": "AI powered voice assistant product",
+    "category": "synonym_paraphrase",
+    "relevant_chunk_ids": [
+      "job_posting:6:1:588392eab2ae",
+      "job_posting:6:3:a5181f770c7e"
+    ],
+    "note": "Samsung's lab-summary chunk says 'world-class voice assistant... unified AI experience' (strong literal overlap), while the position-summary chunk instead calls Bixby an 'intelligent personal assistant' - tests whether that second, differently-worded chunk is still recognized as relevant."
+  }
+]

@@ -18,8 +18,11 @@ from backend.schemas import (
     AnalysisRunRead,
     JobDescriptionAnalyzeRequest,
     DocumentRead,
+    SearchRequest,
+    SearchResult
 ) 
 from backend.document_extraction import extract_text_from_file
+from backend.hybrid_search import hybrid_search
 
 ANALYZER_VERSION = "regex-v1.1"
 
@@ -269,3 +272,8 @@ def delete_document(document_id: int, db: Session = Depends(get_db)):
     db.commit()
     return {"message": "Document deleted"}
 
+@app.post("/search", response_model=list[SearchResult])
+def search(payload: SearchRequest):
+    if not payload.query.strip():
+        raise HTTPException(status_code=400, detail = "Query text is required")
+    return hybrid_search(payload.query, top_k=payload.top_k, source_type=payload.source_type)

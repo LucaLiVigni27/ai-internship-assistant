@@ -147,3 +147,15 @@ class DocumentRead(BaseModel):
     content_hash: str
     created_at: datetime
     model_config = ConfigDict(from_attributes=True)
+
+class SearchResult(BaseModel):
+    chunk_id: str
+    text: str
+    source_type: str
+    source_id: int
+    rrf_score: float
+
+class SearchRequest(BaseModel):
+    query: str
+    top_k: int = 5
+    source_type: Optional[str] = None

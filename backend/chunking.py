@@ -8,12 +8,13 @@ class Chunk:
     chunk_index: int
     metadata: dict
 
-def chunk_text(raw_text: str, max_chunk_chars: int = 1000) -> list[str]:
+def chunk_text(raw_text: str, max_chunk_chars: int = 1000, min_chunk_chars: int = 40) -> list[str]:
     """
     Splits text along paragraph boundaries first. Any paragraph still longer than max_chunk_chars get split at sentence boundaries instead.
-    Avoids cutting at mid-sentence!
+    Paragraphs shorter than min_chunks_char are merged into the paragraph that follows them. Avoids cutting at mid-sentence and having too small chunks!
     """
     paragraphs = [p.strip() for p in raw_text.split("\n\n") if p.strip()]
+    paragraphs = _merge_short_paragraphs(paragraphs, min_chunk_chars)
     chunks: list[str] = []
 
     for paragraph in paragraphs:
@@ -23,6 +24,25 @@ def chunk_text(raw_text: str, max_chunk_chars: int = 1000) -> list[str]:
             chunks.extend(_split_long_paragraph(paragraph, max_chunk_chars))
 
     return chunks
+
+def _merge_short_paragraphs(paragraphs: list[str], min_chunk_chars: int) -> list[str]:
+    merged: list[str] = []
+    carry= ""
+
+    for paragraph in paragraphs:
+        combined = f"{carry}\n{paragraph}".strip() if carry else paragraph
+        if len(combined) < min_chunk_chars:
+            carry = combined
+        else:
+            merged.append(combined)
+            carry=""
+
+    if carry:
+        if merged:
+            merged[-1] = f"{merged[-1]}\n{carry}".strip()
+        else:
+            merged.append(carry)
+    return merged
 
 def _split_long_paragraph(paragraph: str, max_chunk_chars: int) -> list[str]:
     """

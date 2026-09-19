@@ -2,16 +2,13 @@
 Validate every fixture in tests/eval_set/.
 
 For each *.json file:
-  - it must be well-formed JSON with top-level `source`, `raw_text`, `labels`
-  - every `evidence` string must be an exact substring of that file's own `raw_text`:
-      * in required_skills / preferred_skills / mentioned_skills entries
-      * in every `responsibilities` entry (both `text` and `evidence`)
-      * in every non-null label field that carries a `value`/`evidence` pair
+  1.) it must be well-formed JSON with top-level `source`, `raw_text`, `labels`
+  2.) every `evidence` string must be an exact substring of that file's own `raw_text`:
+      - in required_skills / preferred_skills / mentioned_skills entries
+      - in every `responsibilities` entry (both `text` and `evidence`)
+      - in every non-null label field that carries a `value`/`evidence` pair
         (min_experience, education, location, work_arrangement,
          work_authorization, salary, deadline, employment_type)
-
-Prints every failure as `<file> | <location> | <the offending string>` and
-exits non-zero if anything failed.
 """
 
 from __future__ import annotations
