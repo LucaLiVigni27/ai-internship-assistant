@@ -19,10 +19,13 @@ from backend.schemas import (
     JobDescriptionAnalyzeRequest,
     DocumentRead,
     SearchRequest,
-    SearchResult
+    SearchResult,
+    AskRequest,
+    AskResponse,
 ) 
 from backend.document_extraction import extract_text_from_file
 from backend.hybrid_search import hybrid_search
+from backend.answer_generation import generate_answer
 
 ANALYZER_VERSION = "regex-v1.1"
 
@@ -277,3 +280,12 @@ def search(payload: SearchRequest):
     if not payload.query.strip():
         raise HTTPException(status_code=400, detail = "Query text is required")
     return hybrid_search(payload.query, top_k=payload.top_k, source_type=payload.source_type)
+
+@app.post("/ask", response_model=AskResponse)
+def ask(request: AskRequest):
+    result = generate_answer(request.query, top_k=request.top_k, source_type=request.source_type)
+    return AskResponse(
+        answer=result["answer"],
+        citations=result["citations"],
+        sufficient_context=result["sufficient_context"],
+    )

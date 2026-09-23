@@ -159,3 +159,17 @@ class SearchRequest(BaseModel):
     query: str
     top_k: int = 5
     source_type: Optional[str] = None
+
+class AskRequest(BaseModel):
+    query: str
+    top_k: int = 5
+    source_type: str | None = None
+
+class CitationRead(BaseModel):
+    chunk_id: str
+    quote: str
+
+class AskResponse(BaseModel):
+    answer: str
+    citations: list[CitationRead]
+    sufficient_context: bool
