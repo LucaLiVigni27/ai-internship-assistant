@@ -2,7 +2,7 @@
 
 > 🚧 **Prototype — not yet deployed.** Runs locally via Docker; no hosted demo yet.
 
-A hybrid SQL/vector RAG system for tracking internship applications and matching them against resumes and project experience — built to demonstrate SWE, ML/AI engineering, and data skills together in one project, with measured evaluation at every layer rather than "it works" claims.
+A hybrid SQL/vector RAG system for tracking internship applications and matching them against resumes and project experience 
 
 ## What it does
 
