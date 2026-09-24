@@ -72,7 +72,6 @@ def run_evaluation():
         print(f"  vector : recall={vec_score['recall']:.2f}  first relevant at rank {vec_score['rank'] or '-'}")
         print(f"  hybrid : recall={hyb_score['recall']:.2f}  first relevant at rank {hyb_score['rank'] or '-'}")
 
-        # sharp disagreement: one method found a relevant chunk, the other found none at all
         lex_hit = bool(lex_score["found_ids"])
         vec_hit = bool(vec_score["found_ids"])
         if lex_hit != vec_hit:

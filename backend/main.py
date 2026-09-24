@@ -22,10 +22,14 @@ from backend.schemas import (
     SearchResult,
     AskRequest,
     AskResponse,
-) 
+    MatchRequest,
+    MatchResponse,
+    AnalysisRunReadWithPosting,
+)
 from backend.document_extraction import extract_text_from_file
 from backend.hybrid_search import hybrid_search
 from backend.answer_generation import generate_answer
+from backend.matching import match_job_posting
 
 ANALYZER_VERSION = "regex-v1.1"
 
@@ -196,6 +200,50 @@ def analyze_job_posting(job_posting_id: int, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(analysis_run)
     return analysis_run
+
+@app.post("/job-postings/{job_posting_id}/match", response_model=MatchResponse)
+def match_job_posting_endpoint(
+    job_posting_id: int, payload: MatchRequest = MatchRequest(), db: Session = Depends(get_db)
+):
+    job_posting = db.query(JobPosting).filter(JobPosting.id == job_posting_id).first()
+    if job_posting is None:
+        raise HTTPException(status_code=404, detail="Job posting not found")
+
+    if payload.document_ids:
+        documents = db.query(Document).filter(Document.id.in_(payload.document_ids)).all()
+        missing_ids = set(payload.document_ids) - {d.id for d in documents}
+        if missing_ids:
+            raise HTTPException(status_code=404, detail=f"Document(s) not found: {sorted(missing_ids)}")
+    else:
+        documents = db.query(Document).all()
+        if not documents:
+            raise HTTPException(status_code=400, detail="No documents uploaded yet to match against")
+
+    start_time = time.perf_counter()
+    result = match_job_posting(db, job_posting, documents)
+    latency_ms = int((time.perf_counter() - start_time) * 1000)
+
+    db.add(
+        AnalysisRun(
+            job_posting_id=job_posting_id,
+            extractor_type="match",
+            extractor_version="match-v1",
+            model_name="claude-sonnet-4-6",
+            structured_result=result,
+            latency_ms=latency_ms,
+        )
+    )
+    db.commit()
+
+    return MatchResponse(job_posting_id=job_posting_id, **result)
+
+@app.get("/analyses", response_model=list[AnalysisRunReadWithPosting])
+def list_analyses(job_posting_id: int | None = None, db: Session = Depends(get_db)):
+    """Saved-analyses list view: every regex/llm/match AnalysisRun, newest first."""
+    query = db.query(AnalysisRun).options(joinedload(AnalysisRun.job_posting))
+    if job_posting_id is not None:
+        query = query.filter(AnalysisRun.job_posting_id == job_posting_id)
+    return query.order_by(AnalysisRun.created_at.desc()).all()
 
 @app.post("/job-descriptions/analyze")
 def analyze_job_description_endpoint(

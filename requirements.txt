@@ -9,6 +9,9 @@ chromadb
 sentence-transformers
 pypdf
 python-dotenv
+python-multipart
+langchain-anthropic
 pytest
 httpx2
 requests
+alembic

@@ -173,3 +173,23 @@ class AskResponse(BaseModel):
     answer: str
     citations: list[CitationRead]
     sufficient_context: bool
+
+class MatchRequest(BaseModel):
+    document_ids: Optional[list[int]] = None
+
+class MatchResponse(BaseModel):
+    job_posting_id: int
+    document_ids: list[int]
+    matched_required_skills: list[str]
+    missing_required_skills: list[str]
+    matched_preferred_skills: list[str]
+    missing_preferred_skills: list[str]
+    match_score: Optional[float]
+    total_required: int
+    total_preferred: int
+    answer: str
+    citations: list[CitationRead]
+    sufficient_context: bool
+
+class AnalysisRunReadWithPosting(AnalysisRunRead):
+    job_posting: JobPostingSummary

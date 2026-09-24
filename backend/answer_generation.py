@@ -53,12 +53,10 @@ def generate_answer(
         query: str,
         top_k: int = 5,
         source_type: str | None = None,
-        model_name: str = "claude-sonnet-4-6"
+        model_name: str = "claude-sonnet-4-6",
+        retrieved_chunks: list[dict] | None = None,
 ) -> dict:
-    """
-    Retrieve chunks via hybrid_search, then generate an answer grounded in them.
-    """
-    retrieved = hybrid_search(query, top_k=top_k, source_type=source_type)
+    retrieved = retrieved_chunks if retrieved_chunks is not None else hybrid_search(query, top_k=top_k, source_type=source_type)
     if not retrieved:
         return {
             "answer": "No relevant information was found in the corpus for this question.",

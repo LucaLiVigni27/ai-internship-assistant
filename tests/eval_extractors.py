@@ -20,14 +20,12 @@ from pathlib import Path
 from backend.database import SessionLocal
 from backend.skill_matcher import analyze_text, build_alias_index, build_structured_result, detect_sections
 
-# backend.llm_extractor is imported lazily inside run_llm_extractor() so the module (and the regex path) still import when langchain_anthropic isn't installed.
 from dotenv import load_dotenv
 load_dotenv()
 
 EVAL_DIR = Path("tests/eval_set")
 
 
-# load eval files and normalize both extractor's output
 def load_eval_files() -> list[dict]:
     postings = []
     for path in sorted(EVAL_DIR.glob("*.json")):
@@ -56,7 +54,6 @@ def run_llm_extractor(raw_text: str) -> tuple[dict, int]:
     return result, latency_ms
 
 
-# skill list scoring (precision / recall), catalog-scope aware
 def normalize_names(skill_list: list[dict]) -> set[str]:
     return {s["name"].strip().lower() for s in skill_list}
 
@@ -83,12 +80,11 @@ def score_skill_field(predicted: list[dict], expected: list[dict], catalog_alias
         "true_positives": len(true_positives),
         "false_positives": len(false_positives),
         "false_negatives": len(false_negatives),
-        "extra_names": sorted(false_positives),  # kept separately
+        "extra_names": sorted(false_positives),
         "missed_names": sorted(false_negatives),
     }
 
 
-# evidence validation (hallucination check)
 def validate_evidence(result: dict, raw_text: str) -> dict:
     """Check every evidence string across the result is a real substring of raw_text."""
     total = 0
@@ -129,7 +125,6 @@ def validate_evidence(result: dict, raw_text: str) -> dict:
         "invalid_examples": invalid_examples[:5],
     }
 
-# bucket the LLM's "extra" skills 
 def bucket_extra_names(extra_names: list[str], llm_result: dict, db, raw_text: str) -> dict:
     """
     Split score_skill_field()'s `extra_names` into three buckets so LLM finds that
@@ -163,7 +158,6 @@ def bucket_extra_names(extra_names: list[str], llm_result: dict, db, raw_text: s
     return buckets
 
 
-# scalar field presence agreement
 SCALAR_FIELDS = ["min_experience", "education", "location", "work_arrangement", "work_authorization", "salary", "deadline", "employment_type"]
 
 
@@ -181,7 +175,6 @@ def score_scalar_fields(predicted: dict, expected: dict) -> dict:
     return {"field_presence_agreement": agreements / len(SCALAR_FIELDS)}
 
 
-# combine all the above into a single evaluation run
 def run_evaluation():
     db = SessionLocal()
     postings = load_eval_files()
@@ -191,9 +184,8 @@ def run_evaluation():
     llm_scores = {"precision": [], "recall": [], "hallucination_rate": [],
                   "field_presence_agreement": [], "latency_ms": []}
 
-    catalog_gap_counter: Counter = Counter()  # LLM "beyond_catalog_real" names, all postings
+    catalog_gap_counter: Counter = Counter()
 
-    # catalog alias set, built once and reused for every score_skill_field call
     catalog_aliases = {entry.alias.strip().lower() for entry in build_alias_index(db)}
 
     for posting in postings:
